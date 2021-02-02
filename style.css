@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
 #logo-container {
     height: 150px;
     width: 150px;
@@ -10,11 +22,48 @@
 }
 
 
+
 .brand-logo {
     /* width: 180px; */
     width: 80%;
 }
 
-h1 {
-    color: red;
+
+.featured-container {
+    padding-top: 50px;
+    display: flex;
+    
+
 }
+
+.featured-text {
+    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    border-radius: 50%;
+    margin: 0 50px 0 50px;
+    width: 20%;
+    text-align: center;
+    padding: 80px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#brand-name {
+    font-family: 'Nunito', sans-serif;
+  
+}   
+
+#explainer-text {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.screen-preview  {
+    width: 200px;
+}
+
