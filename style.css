@@ -1,0 +1,20 @@
+#logo-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.brand-logo {
+    /* width: 180px; */
+    width: 80%;
+}
+
+h1 {
+    color: red;
+}
