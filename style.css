@@ -8,6 +8,8 @@ header {
 
 body {
     background-color: #EFEFEF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
 }
 
 #logo-container {
@@ -57,13 +59,67 @@ body {
   
 }   
 
-#explainer-text {
-    font-family: 'Nunito', sans-serif;
-}
+/* #explainer-text {
+    
+} */
 
 
 
 .screen-preview  {
     width: 200px;
+}
+
+#newsletter-signup {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #324B4A;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #36C9C6;
+}
+
+.signup-form {
+    margin: 10px;
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #36C9C6;
+}
+
+button {
+    width: 150px;
+    height: 46px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    color: white;
+    border: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
 
