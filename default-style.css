@@ -110,6 +110,12 @@ color: #36C9C6
     width: 200px;
 }
 
+.image-gallery{
+    margin: 20px -10px 0px -10px;
+    padding: 20px 100px;
+    text-align: center;
+}
+
 
 /*******    STYLES RELATING TO FOOTER              *******/
 
