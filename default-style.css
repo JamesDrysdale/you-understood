@@ -12,6 +12,37 @@ body {
     background-color: #EFEFEF;
 }
 
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: 1px solid #EFEFEF;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #324B4A;
+}
+
+button {
+    width: 150px;
+    height: 46px;
+    border-radius: 25px;
+    background-color: #324B4A;
+    color: white;
+    border: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+}
+
+button:focus {
+    outline: none;
+    border: 3px solid #FFF;
+}
+
 /*******    STYLES RELATING TO THE BRAND LOGO                *******/
 
 #logo-container {
