@@ -39,24 +39,58 @@
                     <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.50.35.png" alt="">
                     <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.54.31.png" alt="">
                     <img class="screen-preview" src="images/Screenshot 2021-02-02 at 17.09.55.png" alt="">
+
+
                 </div>
 
                 <div id="feature-cards">
-                    <p>Whether you’re feeling happy or sad, record all the major details of any event.</p>
-                    <p>Simple charts and diagrams help you identify and analyse patterns in changes in your mood and emotions.</p>
-                    <p>Use the insights gained from reviewing your data to make informed decisions about life choices.</p>
+                     <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width slides/quotes -->
+                        <div class="mySlides">
+                            <p>Whether you’re feeling happy or sad, record all the major details of any event.</p>
+                        </div>
+                    
+                        <div class="mySlides">
+                            <p>Simple charts and diagrams help you identify and analyse patterns in changes in your mood and emotions.</p>
+                        </div>
+                    
+                        <div class="mySlides">
+                            <p>Use the insights gained from reviewing your data to make informed decisions about life choices.</p>
+                        </div>
+                    
+                        <!-- Next/prev buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+        
+                    <!-- Dots/bullets/indicators -->
+                    <div class="dot-container">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    
+                    
                 </div>
             </section>
 
         </div>
+
+       
+       
+      
 
 
         <section class="featured-section">
             <div class="signup-form">
                 <h2>Stay up to date</h2>
                 <p>Want to be among the first to find out when the app is released? Subsribe to our newsletter to recieve news and announcements.</p>
-                <input type="text" placeholder="Enter your email address">
-                <button>Subscribe</button>
+                <form>
+                    <input type="text" placeholder="Enter your email address">
+                    <button>Subscribe</button>
+                </form>
             </div>
         </section>
     </main>
@@ -65,5 +99,6 @@
         <a href="mailto:hello@you-understood.com">hello@youunderstood.com</a>
 
     </footer>
+    <script src="slider.js"></script>
 </body>
 </html>
