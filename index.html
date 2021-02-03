@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | You Understood</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./default-style.css">
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#">Who are YU?</a></li>
+            </ul>
+        </nav>
         <div id="logo-container">
-            <img class="brand-logo" src="./images/YU-logo-17-white-cropped.png">
+            <div id="logo-square">
+                <img class="brand-logo" src="./images/YU-logo-17-white-cropped.png">
+            </div>
         </div>
     </header>
 
@@ -26,16 +33,27 @@
                 </div>
             </article>
           
-            <section class="image-gallery">
-                <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.50.35.png" alt="">
-                <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.54.31.png" alt="">
-                <img class="screen-preview" src="images/Screenshot 2021-02-02 at 17.09.55.png" alt="">
+            <section >
+
+                <div class="image-gallery">
+                    <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.50.35.png" alt="">
+                    <img class="screen-preview" src="images/Screenshot 2021-02-02 at 15.54.31.png" alt="">
+                    <img class="screen-preview" src="images/Screenshot 2021-02-02 at 17.09.55.png" alt="">
+                </div>
+
+                <div id="feature-cards">
+                    <p>Whether you’re feeling happy or sad, record all the major details of any event.</p>
+                    <p>Simple charts and diagrams help you identify and analyse patterns in changes in your mood and emotions.</p>
+                    <p>Use the insights gained from reviewing your data to make informed decisions about life choices.</p>
+                </div>
             </section>
 
         </div>
 
+
         <section id="newsletter-signup">
             <div class="signup-form">
+                <h2>Stay up to date</h2>
                 <p>Want to be among the first to find out when the app is released? Subsribe to our newsletter to recieve news and announcements.</p>
                 <input type="text" placeholder="Enter your email address">
                 <button>Subscribe</button>

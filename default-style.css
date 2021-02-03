@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
+
+/*******    STYLES RELATING TO GENERAL BRAND STYLING        *******/
+
+h1, h2, h3, h4, h5, h5 {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*******    STYLES RELATING TO THE BRAND LOGO                *******/
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-square {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 90%;
+}
+
+
+/*******    STYLES RELATING TO THE HEADER AND NAVIGATION    *******/
+
+ul {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: #324b4aff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+color: #36C9C6
+}
+
