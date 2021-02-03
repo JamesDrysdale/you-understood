@@ -143,6 +143,7 @@ form {
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
+    
   }
   
   /* Slides */
@@ -151,6 +152,7 @@ form {
     padding: 80px;
     text-align: center;
     color: #324b4aff;
+    
   }
   
   /* Next & previous buttons */
@@ -185,7 +187,8 @@ form {
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    /* background: #ddd; */
+    border-radius: 20px;
   }
   
   /* The dots/bullets/indicators */
