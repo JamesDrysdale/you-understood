@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*******    STYLES RELATING TO GENERAL BRAND STYLING        *******/
 body, .mySlides {
@@ -218,12 +217,23 @@ footer {
     background-color: #324B4A;
 }
 
+.social-icons img {
+    float: left;
+    padding-right: 25px;
+    width: 48px;
+}
+
 footer a {
     color: white;
 }
 
 footer a:hover {
     color: #36C9C6;
+}
+
+.contact-us-text {
+    color: white;
+    font-weight: 700;
 }
 
 
