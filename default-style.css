@@ -98,7 +98,7 @@ text-decoration: none;
 
 /* Change the link color on hover */
 li a:hover {
-color: #36C9C6
+font-weight: 700;
 }
 
 /*******    STYLES RELATING TO THE FEATURED AREAs            *******/
