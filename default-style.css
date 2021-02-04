@@ -3,7 +3,7 @@
 /*******    STYLES RELATING TO GENERAL BRAND STYLING        *******/
 body, .mySlides {
     font-family: 'Open Sans', sans-serif;
-    background-color: #EFEFEF;
+    background-color: #E1E8ED;
     font-size: 16px;
 }
 
@@ -24,7 +24,8 @@ input {
     height: 40px;
     border-radius: 25px;
     padding-left: 10px;
-    border: 1px solid #EFEFEF;
+    border: 1px solid #657786;
+    background-color: #E1E8ED;
 }
 
 input:focus {
@@ -37,7 +38,7 @@ button {
     height: 46px;
     border-radius: 25px;
     background-color: #324B4A;
-    color: white;
+    color: #E1E8ED;
     border: 0px;
     margin-left: 10px;
     font-weight: 600;
@@ -47,7 +48,7 @@ button {
 
 button:focus {
     outline: none;
-    border: 3px solid #FFF;
+    border: 3px solid #E1E8ED;
 }
 
 /*******    STYLES RELATING TO THE BRAND LOGO                *******/
@@ -88,7 +89,7 @@ float: right;
 
 li a {
 display: block;
-color: #324b4aff;
+color: #324B4A; 
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -106,7 +107,7 @@ color: #36C9C6
     margin: 60px -10px 0px -10px;
     padding: 20px 100px;
     text-align: center;
-    color: white;
+    color: #E1E8ED;
 }
 
 .signup-form {
@@ -141,7 +142,7 @@ form {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: #f1f1f1f1;
+    background: #E1E8ED;
     
   }
   
@@ -150,7 +151,7 @@ form {
     display: none;
     padding: 80px;
     text-align: center;
-    color: #324b4aff;
+    color: #324B4A;
     
   }
   
@@ -178,8 +179,8 @@ form {
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
+    background-color: #324B4A;
+    color: #E1E8ED;
   }
   
   /* The dot/bullet/indicator container */
@@ -196,7 +197,7 @@ form {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #95B1AF;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -204,7 +205,7 @@ form {
   
   /* Add a background color to the active dot/circle */
   .active, .dot:hover {
-    background-color: #717171;
+    background-color:#324B4A;
   }
 
 
@@ -224,7 +225,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #E1E8ED;
 }
 
 footer a:hover {
@@ -232,7 +233,7 @@ footer a:hover {
 }
 
 .contact-us-text {
-    color: white;
+    color: #E1E8ED;
     font-weight: 700;
 }
 
