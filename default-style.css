@@ -109,7 +109,7 @@ font-weight: 700;
     background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
     margin: 70px -10px 0px -10px;
     /* padding: 20px 100px; For wide screens*/
-    padding: 20px 50px;
+    padding: 20px 20px;
     text-align: center;
 }
 
