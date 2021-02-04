@@ -22,8 +22,8 @@ h2 {
 }
 
 input {
-    width: 250px;
-    height: 40px;
+    width: 300px;
+    height: 45px;
     border-radius: 25px;
     padding-left: 10px;
     border: 1px solid #657786;
@@ -37,7 +37,7 @@ input:focus {
 
 button {
     width: 150px;
-    height: 46px;
+    height: 45px;
     border-radius: 25px;
     background-color: #324B4A;
     color: #E1E8ED;
@@ -118,7 +118,11 @@ font-weight: 700;
 }
 
 form {
-    margin-top: 50px;
+    margin: 50px 0px;
+}
+
+input, button {
+    margin: 10px;
 }
 
 
