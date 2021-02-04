@@ -3,9 +3,11 @@
 /*******    STYLES RELATING TO GENERAL BRAND STYLING        *******/
 body, .mySlides {
     font-family: 'Open Sans', sans-serif;
-    background-color: #E1E8ED;
+    /* background-color: #E1E8ED; */
     font-size: 16px;
-    color: #324B4A;
+    /* color: #324B4A; */
+    background: url("./images/yu-bg.png");
+    background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -151,7 +153,7 @@ input, button {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: #E1E8ED;
+    /* background: #E1E8ED; */
     
   }
   
