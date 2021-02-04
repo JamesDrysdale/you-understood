@@ -153,6 +153,7 @@ form {
   .mySlides {
     display: none;
     margin-top: 80px;
+    padding: 0px 50px;
     text-align: center;
   }
   
