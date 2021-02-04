@@ -1,125 +1,273 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-header {
-    display: flex;
-    justify-content: center;
+/*******    STYLES RELATING TO GENERAL BRAND STYLING        *******/
+body, .mySlides {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E1E8ED;
+    font-size: 16px;
+    color: #324B4A;
 }
 
-body {
-    background-color: #EFEFEF;
+h1, h2, h3, h4, h5, h5 {
     font-family: 'Nunito', sans-serif;
-    font-size: 14px;
+    font-weight: 400;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: 1px solid #657786;
+    background-color: #E1E8ED;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #324B4A;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #324B4A;
+    color: #E1E8ED;
+    border: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+}
+
+button:focus {
+    outline: none;
+    border: 3px solid #E1E8ED;
+}
+
+/*******    STYLES RELATING TO THE BRAND LOGO                *******/
 
 #logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#logo-square {
     height: 150px;
     width: 150px;
     border-radius: 25%;
-    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
     
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .brand-logo {
-    /* width: 180px; */
-    width: 80%;
+    width: 90%;
 }
 
 
-.featured-container {
-    padding-top: 50px;
-    display: flex;
-    
+/*******    STYLES RELATING TO THE HEADER AND NAVIGATION    *******/
 
-}
-
-.featured-text {
-    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
-    border-radius: 50%;
-    margin: 0 50px 0 50px;
-    width: 20%;
-    text-align: center;
-    padding: 80px;
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-#brand-name {
-    font-family: 'Nunito', sans-serif;
+ul {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+    overflow: hidden;
+  }
   
-}   
+li {
+float: right;
+}
 
-/* #explainer-text {
-    
-} */
+li a {
+display: block;
+color: #324B4A; 
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+font-weight: 700;
+}
+
+/*******    STYLES RELATING TO THE FEATURED AREAs            *******/
+
+.featured-section, #newsletter-signup {
+    background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
+    margin: 70px -10px 0px -10px;
+    /* padding: 20px 100px; For wide screens*/
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.signup-form {
+    padding: 10px 0px 20px 0px;
+}
+
+form {
+    margin: 50px 0px;
+}
+
+input, button {
+    margin: 10px;
+}
 
 
+
+/*******    STYLES RELATING TO THE UI SCREENS               *******/
 
 .screen-preview  {
-    width: 200px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
-#newsletter-signup {
+.image-gallery{
+    margin: 20px -10px 0px -10px;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+#feature-cards {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #E1E8ED;
+    
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    margin-top: 50px;
+    padding: 0px 50px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #324B4A;
+    color: #E1E8ED;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: center;
+    /* background: #ddd; */
+    border-radius: 20px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #95B1AF;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color:#324B4A;
+  }
 
-}
 
+/*******    STYLES RELATING TO FOOTER              *******/
 
 footer {
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    margin: 0px -10px -10px -10px;
+    padding: 20px 20px;
+    text-align: right;
     background-color: #324B4A;
 }
 
+.social-icons img {
+    float: left;
+    padding-right: 25px;
+    padding-top: 10px;
+    width: 25px;
+}
+
 footer a {
-    color: white;
+    color: #E1E8ED;
 }
 
 footer a:hover {
     color: #36C9C6;
 }
 
-.signup-form {
-    margin: 10px;
-    text-align: center;
+.contact-link {
+    text-decoration: none;
+    font-weight: 700;
 }
 
-input {
-    width: 250px;
-    height: 40px;
-    border-radius: 25px;
-    padding-left: 10px;
-}
 
-input:focus {
-    outline: none;
-    border: 3px solid #36C9C6;
-}
+/*******    STYLES TO ANIMATE HAND EMOJI            *******/
 
-button {
-    width: 150px;
-    height: 46px;
-    border-radius: 25px;
-    background: linear-gradient(to bottom right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
-    color: white;
-    border: 0px;
-    margin-left: 10px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 1.2em;
-}
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+
 
