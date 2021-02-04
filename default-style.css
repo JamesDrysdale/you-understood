@@ -108,7 +108,8 @@ font-weight: 700;
 .featured-section, #newsletter-signup {
     background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
     margin: 70px -10px 0px -10px;
-    padding: 20px 100px;
+    /* padding: 20px 100px; For wide screens*/
+    padding: 20px 50px;
     text-align: center;
 }
 
