@@ -5,6 +5,7 @@ body, .mySlides {
     font-family: 'Open Sans', sans-serif;
     background-color: #E1E8ED;
     font-size: 16px;
+    color: #000;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -89,7 +90,7 @@ float: right;
 
 li a {
 display: block;
-color: #324B4A; 
+color: #000; 
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -107,7 +108,6 @@ color: #36C9C6
     margin: 60px -10px 0px -10px;
     padding: 20px 100px;
     text-align: center;
-    color: #E1E8ED;
 }
 
 .signup-form {
@@ -151,8 +151,6 @@ form {
     display: none;
     padding: 80px;
     text-align: center;
-    color: #324B4A;
-    
   }
   
   /* Next & previous buttons */
