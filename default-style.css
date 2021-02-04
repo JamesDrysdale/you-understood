@@ -152,7 +152,7 @@ form {
   /* Slides */
   .mySlides {
     display: none;
-    padding: 80px;
+    margin-top: 80px;
     text-align: center;
   }
   
