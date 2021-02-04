@@ -230,6 +230,11 @@ footer a:hover {
     color: #36C9C6;
 }
 
+.contact-link {
+    text-decoration: none;
+    font-weight: 700;
+}
+
 
 /*******    STYLES TO ANIMATE HAND EMOJI            *******/
 
@@ -251,13 +256,6 @@ footer a:hover {
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
-  
-  
-  
-  
-  /* For demonstration purposes only: */
-  /* body { font-size: 3.5em }
-  h1 { font-size: 0.5em } */
 
 
 
