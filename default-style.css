@@ -5,7 +5,7 @@ body, .mySlides {
     font-family: 'Open Sans', sans-serif;
     background-color: #E1E8ED;
     font-size: 16px;
-    color: #000;
+    color: #324B4A;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -91,7 +91,7 @@ float: right;
 
 li a {
 display: block;
-color: #000; 
+color: #324B4A; 
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
