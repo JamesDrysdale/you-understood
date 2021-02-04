@@ -14,11 +14,11 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 input {
@@ -58,6 +58,7 @@ button:focus {
 #logo-container {
     display: flex;
     justify-content: center;
+    margin: 20px 0px 20px 0px;
 }
 
 #logo-square {
@@ -106,8 +107,9 @@ font-weight: 700;
 
 .featured-section, #newsletter-signup {
     background: linear-gradient(to top right, #36C9C6 0%, #4AD7BB 35%, #6FE3A9 100%);
-    margin: 60px -10px 0px -10px;
-    padding: 20px 100px;
+    margin: 70px -10px 0px -10px;
+    /* padding: 20px 100px; For wide screens*/
+    padding: 20px 50px;
     text-align: center;
 }
 
