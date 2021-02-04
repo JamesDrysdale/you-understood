@@ -219,7 +219,7 @@ input, button {
 
 footer {
     margin: 0px -10px -10px -10px;
-    padding: 20px 100px;
+    padding: 20px 20px;
     text-align: right;
     background-color: #324B4A;
 }
@@ -227,7 +227,8 @@ footer {
 .social-icons img {
     float: left;
     padding-right: 25px;
-    width: 48px;
+    padding-top: 10px;
+    width: 25px;
 }
 
 footer a {
