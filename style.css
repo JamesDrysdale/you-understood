@@ -5,7 +5,7 @@ body, .mySlides {
     font-family: 'Open Sans', sans-serif;
     /* background-color: #E1E8ED; */
     font-size: 16px;
-    /* color: #324B4A; */
+    color: #324B4A;
     background: url("./images/yu-bg.png");
     background-repeat: repeat;
 }
