@@ -64,8 +64,8 @@ button:focus {
 }
 
 #logo-square {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 25%;
     background: linear-gradient(to top right, #6FE3A9 0%, #4AD7BB 35%, #36C9C6  100%);
     
