@@ -24,6 +24,14 @@ h2 {
     font-size: 1.5em;
 }
 
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 10px 20px;
+}
+
 input {
     width: 300px;
     height: 45px;
@@ -231,10 +239,11 @@ input, button {
 /*******    STYLES RELATING TO FOOTER              *******/
 
 footer {
-    margin: 0px -10px -10px -10px;
+    margin: 0px 0px 0px 0px;
     padding: 20px 20px;
     text-align: right;
     background-color: #324B4A;
+    color: #E1E8ED;
 }
 
 .social-icons img {
@@ -246,14 +255,18 @@ footer {
 
 footer a {
     color: #E1E8ED;
+    
 }
 
 footer a:hover {
     color: #36C9C6;
 }
 
+.legal-link {
+    text-align: center;
+}
+
 .contact-link {
-    text-decoration: none;
     font-weight: 700;
 }
 
