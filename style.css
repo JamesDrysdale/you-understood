@@ -8,6 +8,7 @@ body, .mySlides {
     color: #324B4A;
     background: url("./images/yu-bg.png");
     background-repeat: repeat;
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -37,7 +38,15 @@ input:focus {
     border: 3px solid #324B4A;
 }
 
-button {
+.asterisk {
+    color: red;
+}
+
+.indicates-required {
+    font-size: small;
+}
+
+.button {
     width: 150px;
     height: 45px;
     border-radius: 25px;
@@ -109,7 +118,7 @@ font-weight: 700;
 
 .featured-section, #newsletter-signup {
     background: linear-gradient(to top right, #6FE3A9 0%, #4AD7BB 35%, #36C9C6  100%);
-    margin: 70px -10px 0px -10px;
+    margin: 70px 0px 0px 0px;
     /* padding: 20px 100px; For wide screens*/
     padding: 20px 20px;
     text-align: center;
@@ -138,7 +147,7 @@ input, button {
 }
 
 .image-gallery{
-    margin: 20px -10px 0px -10px;
+    margin: 20px 0px 0px 0px;
     padding: 20px 0px;
     text-align: center;
 }
@@ -171,7 +180,7 @@ input, button {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -30px;
+    margin-top: 0px;
     padding: 16px;
     color: #888;
     font-weight: bold;
