@@ -107,13 +107,12 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0 20px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
 nav li {
-/* float: right; */
 display: inline;
 }
 
@@ -121,7 +120,7 @@ nav li a {
 display: inline-block;
 color: #E1E8ED; 
 text-align: center;
-padding: 14px 16px;
+padding: 8px 16px;
 text-decoration: none;
 }
 
