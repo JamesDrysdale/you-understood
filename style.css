@@ -99,35 +99,46 @@ button:focus {
 
 /*******    STYLES RELATING TO THE HEADER AND NAVIGATION    *******/
 
-ul {
+nav {
+    margin: 70px 0px 0px 0px;
+    background-color: #324B4A;
+    text-align:center;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0 20px;
     padding: 0;
     overflow: hidden;
   }
   
-li {
-float: right;
+nav li {
+/* float: right; */
+display: inline;
 }
 
-li a {
-display: block;
-color: #324B4A; 
+nav li a {
+display: inline-block;
+color: #E1E8ED; 
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
 
 /* Change the link color on hover */
-li a:hover {
+nav li a:hover {
 font-weight: 700;
 }
 
 /*******    STYLES RELATING TO THE FEATURED AREAs            *******/
 
+.featured-container {
+    margin: 0;
+}
+
 .featured-section, #newsletter-signup {
     background: linear-gradient(to top right, #6FE3A9 0%, #4AD7BB 35%, #36C9C6  100%);
-    margin: 70px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     /* padding: 20px 100px; For wide screens*/
     padding: 20px 20px;
     text-align: center;
